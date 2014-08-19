@@ -22,7 +22,8 @@ class Hook
         $plugins[] = array(
             'name'               => 'Meta Box',
             'slug'               => 'meta-box',
-            'source'             => get_stylesheet_directory() . '/plugins/meta-box.zip',
+            // 'source'             => get_stylesheet_directory() . '/plugins/plugin-name.zip',
+            'source'             => 'http://downloads.wordpress.org/plugin/meta-box.4.3.9.zip',
             'required'           => true,
             'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher.
             'force_activation'   => false,
@@ -33,7 +34,7 @@ class Hook
         $plugins[] = array(
             'name'               => 'Options Framework',
             'slug'               => 'options-framework',
-            'source'             => get_stylesheet_directory() . '/plugins/options-framework.zip',
+            'source'             => 'http://downloads.wordpress.org/plugin/options-framework.1.8.2.zip',
             'required'           => false,
             'version'            => '',
             'force_activation'   => false,
