@@ -1,0 +1,27 @@
+{
+    "name": "opsone/wordpress-theme-kit-lib",
+    "type": "library",
+    "description": "A php library for wordpress-theme-kit",
+    "keywords": ["wordpress", "theme"],
+    "homepage": "https://github.com/opsone/wordpress-theme-kit-lib",
+    "support": {
+        "issues": "https://github.com/opsone/wordpress-theme-kit-lib/issues",
+        "source": "https://github.com/opsone/wordpress-theme-kit-lib"
+    },
+    "authors": [
+        {
+            "name": "Jeremy Chaufourier",
+            "email": "jeremy@opsone.net"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zendframework": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "WpThemeKitLib": "lib/"
+        }
+    }
+}
