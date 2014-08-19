@@ -11,7 +11,8 @@
     "authors": [
         {
             "name": "Jeremy Chaufourier",
-            "email": "jeremy@opsone.net"
+            "email": "jeremy@opsone.net",
+            "homepage": "https://github.com/batosai",
         }
     ],
     "license": "MIT",
