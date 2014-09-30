@@ -124,6 +124,8 @@ class Hook
     {
         global $view;
         $template_name   = ucfirst(str_replace('.php', '', basename($template)));
+        $template_name   = ucwords(str_replace('-', ' ', $template_name));
+        $template_name   = str_replace(' ', '', $template_name);
         $controller_name = 'Bundle\FrontBundle\Controller\\'.$template_name.'Controller';
 
         $render          = new PhpRenderer();
